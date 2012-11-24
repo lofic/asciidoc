@@ -3,6 +3,7 @@ How to use this backend :
 - use : asciidoc --backend=index-list index.txt
 
 Example of index.txt file :
+
     List
     ----
     * link:page.html[Page Title]
