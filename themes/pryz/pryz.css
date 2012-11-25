@@ -239,4 +239,8 @@ a:hover {
     text-decoration-color:red;
 }
 
+#search {
+    margin-right:10px;
+}
+
 /* vim: set ft=css ts=4 sw=4 noexpandtab: */

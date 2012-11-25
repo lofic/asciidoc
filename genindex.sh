@@ -20,6 +20,6 @@ done
 
 sed -i 's/\.txt/.html/g' index.txt
 
-asciidoc --theme=black --backend=index-list index.txt
+asciidoc --theme=pryz --backend=index_list index.txt
 
 #rm index.txt

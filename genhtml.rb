@@ -5,7 +5,7 @@ require 'fileutils'
 # Source : https://github.com/lofic/tips
 #
 
-theme = "black"
+theme = "pryz"
 
 if not File.directory? './html'
   Dir.mkdir './html'
