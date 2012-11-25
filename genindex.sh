@@ -22,4 +22,4 @@ sed -i 's/\.txt/.html/g' index.txt
 
 asciidoc --theme=black --backend=index-list index.txt
 
-rm index.txt
+#rm index.txt
