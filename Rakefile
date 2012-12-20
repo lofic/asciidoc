@@ -2,7 +2,13 @@ require 'rubygems'
 require 'nokogiri'
 require 'fileutils'
 
-desc "Generate HTML files from .txt asciidoc fils"
+desc "Default task : build html and index"
+task :default do
+    Rake::Task[:genhtml].invoke
+    Rake::Task[:genindex].invoke
+end
+
+desc "Generate HTML files from .txt asciidoc files"
 task :genhtml, [:theme] do |t, args|
     args.with_defaults(:theme => "pryz")
     puts "Building notes with the theme : #{args.theme}"
