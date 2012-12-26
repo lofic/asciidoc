@@ -28,7 +28,7 @@ Use rake to generate notes
 
 #### Get and use the Rakefile ####
 
-    # If you want hide tags, install last release of index_list backend (1.2) and pryz theme (1.1)
+    # If you want to hide tags, install last release of index_list backend (1.2) and pryz theme (1.1)
 
     wget https://github.com/Pryz/asciidoc/raw/master/Rakefile
 
