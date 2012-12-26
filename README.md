@@ -17,7 +17,7 @@ Backends
 Use rake to generate notes
 --------------------------
 
-#### Install needed theme and backend ####
+#### Install dependencies ####
 
         
     wget https://github.com/Pryz/asciidoc/raw/master/backend/lofic_backend-1.0.zip
