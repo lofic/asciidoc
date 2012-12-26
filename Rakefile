@@ -16,7 +16,7 @@ end
 
 desc "Generate HTML files from .txt asciidoc files"
 task :genhtml, [:theme, :backend] do |t, args|
-    args.with_defaults(:theme => "pryz", :backend => "lofic")
+    args.with_defaults(:theme => "pryz", :backend => "lofic_backend")
     puts "Building notes with the theme : #{args.theme} and the backend : lofic"
 
     if not File.directory? html_folder
