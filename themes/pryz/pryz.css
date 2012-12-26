@@ -41,7 +41,7 @@ a:focus {
 
 body {
 	font-family:verdana,helvetica,arial,sans-serif;
-	margin:40px 50px;
+	margin:40px auto;
 	max-width:53.8461538462em;
     box-sizing: border-box;
     color:#373737;
@@ -69,7 +69,8 @@ tt {
 
 p, ul, ol, dl {
 	margin:10px 0;
-    font-size:15px;
+    /*font-size:15px;*/
+    font-size:13px;
 }
 
 dl {
@@ -158,6 +159,10 @@ pre {
 	color:#888;
 }
 
+.listingblock {
+    margin-bottom:30px;
+}
+
 .listingblock .content {
 	background:#eee;
     width: 100%;
@@ -241,6 +246,19 @@ a:hover {
 
 #search {
     margin-right:10px;
+}
+
+.sort {
+    margin-left:15px;
+    font-size:13px;
+}
+
+.sort:hover {
+    cursor:pointer;
+}
+
+hidden {
+    display:none;
 }
 
 /* vim: set ft=css ts=4 sw=4 noexpandtab: */

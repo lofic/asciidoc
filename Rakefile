@@ -82,9 +82,13 @@ EOT
         title = page.css('title').text
         tags = ""
         page.xpath('//div[@class="paragraph"]').each do | div |
-            tags = div.content if div.content.match(/Additional tags :/)
+            tags = div.content if div.content.match(/Additional tag/)
         end
-        index.write("* link:#{note_file}[#{title}] #{tags}\n")
+        if tags.empty?
+            index.write("* link:#{note_file}[#{title}]\n")
+        else
+            index.write("* link:#{note_file}[#{title}] -h-#{tags}-h-\n")
+        end
     end
     index.close
     %x[asciidoc --theme=#{args.theme} --backend=#{args.backend} #{index_file}]
