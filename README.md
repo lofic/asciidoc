@@ -20,11 +20,11 @@ Use rake to generate notes
 .Install needed theme and backend
 
         
-    wget https://github.com/Pryz/asciidoc/raw/master/backend/lofic-1.0.zip
-    asciidoc -v --backend install lofic-1.0.zip
+    wget https://github.com/Pryz/asciidoc/raw/master/backend/lofic_backend-1.0.zip
+    asciidoc -v --backend install lofic_backend-1.0.zip
 
     wget https://github.com/Pryz/asciidoc/raw/master/themes/lofic/lofic-1.0.zip
-    asciidoc -v --theme install lofic-1.0.zip
+    asciidoc -v --theme install lofic_theme-1.0.zip
 
 .Get and use the Rakefile
 
