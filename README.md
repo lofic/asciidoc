@@ -11,7 +11,7 @@ Themes
 Backends
 --------
 
-    asciidoc -v --backend install index-list-1.1.zip
+    asciidoc -v --backend install index-list-1.2.zip
     asciidoc --backend index-list your_file.txt
 
 Use rake to generate notes
