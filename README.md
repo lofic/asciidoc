@@ -11,7 +11,7 @@ Themes
 Backends
 --------
 
-    asciidoc -v --backend install index-list-1.2.zip
+    asciidoc -v --backend install index_list-1.2.zip
     asciidoc --backend index-list your_file.txt
 
 Use rake to generate notes
@@ -27,6 +27,8 @@ Use rake to generate notes
     asciidoc -v --theme install lofic_theme-1.0.zip
 
 #### Get and use the Rakefile ####
+
+    # If you want to hide tags, install last release of index_list backend (1.2) and pryz theme (1.1)
 
     wget https://github.com/Pryz/asciidoc/raw/master/Rakefile
 
