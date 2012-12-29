@@ -44,6 +44,7 @@ task :genhtml, [:theme, :backend] do |t, args|
         end
         sleep 0.1
     end
+    `sed -i '/^Last updated/d' #{html_folder}/*.html`
 end
 
 desc "Generate one file"
