@@ -261,4 +261,9 @@ hidden {
     display:none;
 }
 
+#toc {
+    text-align:left;
+    margin-bottom:30px;
+}
+
 /* vim: set ft=css ts=4 sw=4 noexpandtab: */
